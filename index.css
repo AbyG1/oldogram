@@ -9,29 +9,90 @@ html, body {
     width: 375px;
     margin: 0 auto;
     background-color:#ffffff;
+    box-sizing: border-box;
 
 }
 
-header .container{
-    padding: 15px;
+header .container{   
     display: flex;
     justify-content: space-between;
-    
-    
+    align-items:center;
+    padding: 5px 15px;
+    border-bottom: 1px solid #C6C6C6;        
 }
 
 
 .logo-img{
-    width: 125px;
-   
-
+    width: 125px;   
 }
 
-.user-img{
+.user-img, .avatar-img{
     width: 34px;
     height: 34px;
     border-radius: 50%;
-    margin-top: 10px;
-   
 }
 
+.avatar-img{
+    margin-right: 4px;
+}
+
+.profile-details {
+    display: flex;
+    width: 348px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.profile-text{
+    margin-top: 5px;
+}
+.profile-text p{
+    font-size: 12px;
+    margin:0;
+    padding:0;
+}
+
+.name,.likes,.comment{
+    font-weight: 900;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.reactions{
+    width: 346px;
+    margin: 16px auto ;
+    padding-bottom: 16px;
+    
+}
+
+.engagements{
+    width: 105px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.engagements img {
+    width: 24px;
+    
+}
+
+.engagements img:hover{
+    opacity: 0.4;
+}
+
+p{
+    font-size: 13px;
+    margin:0;
+}
+
+.likes{
+    margin-top: 11px;
+    margin-bottom:12px
+}
+
+.second{
+    margin-bottom: 25px;
+}
