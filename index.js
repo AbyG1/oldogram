@@ -29,7 +29,12 @@ const posts = [
     }
 ]
 
+
+
 let feedContainer = document.getElementById("main")
+
+
+
 
 function getPosts(){
 
@@ -53,7 +58,7 @@ function getPosts(){
                         <img id='oldagram-post' src="${element.post}" class="post-img" alt="Selfie painting of vangogh">
                         <div class="reactions">
                             <div class="engagements">
-                                <img id='like-button' src="./images/icon-heart.png" alt="like icon">
+                                <img src="./images/icon-heart.png" alt="like icon">
                                 <img src="./images/icon-comment.png" alt="comment icon">
                                 <img src="./images/icon-dm.png" alt="share icon">
                             </div>
